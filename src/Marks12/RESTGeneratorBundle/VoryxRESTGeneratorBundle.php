@@ -1,6 +1,6 @@
 <?php
 
-namespace Voryx\RESTGeneratorBundle;
+namespace Marks12\RESTGeneratorBundle;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 

@@ -3,7 +3,7 @@
 /*
  */
 
-namespace Voryx\RESTGeneratorBundle\Command;
+namespace Marks12\RESTGeneratorBundle\Command;
 
 
 use Sensio\Bundle\GeneratorBundle\Command\GenerateDoctrineCrudCommand;
@@ -15,9 +15,9 @@ use Symfony\Component\Console\Question\Question;
 use Symfony\Component\DependencyInjection\Container;
 use Symfony\Component\HttpKernel\Bundle\BundleInterface;
 use Sensio\Bundle\GeneratorBundle\Command\Helper\QuestionHelper;
-use Voryx\RESTGeneratorBundle\Generator\DoctrineRESTGenerator;
+use Marks12\RESTGeneratorBundle\Generator\DoctrineRESTGenerator;
 use Sensio\Bundle\GeneratorBundle\Command\Validators;
-use Voryx\RESTGeneratorBundle\Manipulator\RoutingManipulator;
+use Marks12\RESTGeneratorBundle\Manipulator\RoutingManipulator;
 
 /**
  * Generates a REST api for a Doctrine entity.
@@ -47,9 +47,9 @@ class GenerateDoctrineRESTCommand extends GenerateDoctrineCrudCommand
             ->setDescription('Generates a REST api based on a Doctrine entity')
             ->setHelp(
                 <<<EOT
-                The <info>voryx:generate:rest</info> command generates a REST api based on a Doctrine entity.
+                The <info>marks12:generate:rest</info> command generates a REST api based on a Doctrine entity.
 
-<info>php app/console voryx:generate:rest --entity=AcmeBlogBundle:Post --route-prefix=post_admin</info>
+<info>php app/console marks12:generate:rest --entity=AcmeBlogBundle:Post --route-prefix=post_admin</info>
 
 Every generated file is based on a template. There are default templates but they can be overriden by placing custom templates in one of the following locations, by order of priority:
 
@@ -65,8 +65,8 @@ You can check https://github.com/sensio/SensioGeneratorBundle/tree/master/Resour
 in order to know the file structure of the skeleton
 EOT
             )
-            ->setName('voryx:generate:rest')
-            ->setAliases(array('generate:voryx:rest'));
+            ->setName('marks12:generate:rest')
+            ->setAliases(array('generate:marks12:rest'));
     }
 
     /**

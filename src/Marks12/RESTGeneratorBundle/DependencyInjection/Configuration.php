@@ -1,6 +1,6 @@
 <?php
 
-namespace Voryx\RESTGeneratorBundle\DependencyInjection;
+namespace Marks12\RESTGeneratorBundle\DependencyInjection;
 
 use Symfony\Component\Config\Definition\Builder\TreeBuilder;
 use Symfony\Component\Config\Definition\ConfigurationInterface;

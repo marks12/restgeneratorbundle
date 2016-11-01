@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace Voryx\RESTGeneratorBundle\Manipulator;
+namespace Marks12\RESTGeneratorBundle\Manipulator;
 
 
 use Sensio\Bundle\GeneratorBundle\Manipulator\Manipulator;

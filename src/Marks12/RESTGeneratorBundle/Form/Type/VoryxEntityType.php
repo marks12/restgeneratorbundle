@@ -1,17 +1,17 @@
 <?php
 
 
-namespace Voryx\RESTGeneratorBundle\Form\Type;
+namespace Marks12\RESTGeneratorBundle\Form\Type;
 
 use Doctrine\ORM\EntityManager;
 use Symfony\Bridge\Doctrine\Form\Type\EntityType;
 use Symfony\Component\Form\FormBuilderInterface;
 use Symfony\Component\OptionsResolver\OptionsResolverInterface;
-use Voryx\RESTGeneratorBundle\Form\DataTransformer\ArrayToIdTransformer;
+use Marks12\RESTGeneratorBundle\Form\DataTransformer\ArrayToIdTransformer;
 
 /**
  * Class VoryxEntityType
- * @package Voryx\RESTGeneratorBundle\Form\Type
+ * @package Marks12\RESTGeneratorBundle\Form\Type
  */
 class VoryxEntityType extends EntityType
 {

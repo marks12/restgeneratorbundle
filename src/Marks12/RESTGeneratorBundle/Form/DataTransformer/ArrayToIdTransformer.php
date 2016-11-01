@@ -1,6 +1,6 @@
 <?php
 
-namespace Voryx\RESTGeneratorBundle\Form\DataTransformer;
+namespace Marks12\RESTGeneratorBundle\Form\DataTransformer;
 
 use Doctrine\ORM\EntityManager;
 use Symfony\Component\Form\DataTransformerInterface;

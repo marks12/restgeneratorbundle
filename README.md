@@ -1,4 +1,4 @@
-# Voryx REST Generator Bundle
+# Marks12 REST Generator Bundle
 [![SensioLabsInsight](https://insight.sensiolabs.com/projects/ac1842d9-4e36-45cc-8db1-b97e2e62540e/big.png)](https://insight.sensiolabs.com/projects/ac1842d9-4e36-45cc-8db1-b97e2e62540e)
 
 ## About
@@ -25,7 +25,7 @@ public function registerBundles()
 {
     $bundles = array(
         //...
-          new Voryx\RESTGeneratorBundle\VoryxRESTGeneratorBundle(),
+          new Marks12\RESTGeneratorBundle\VoryxRESTGeneratorBundle(),
           new FOS\RestBundle\FOSRestBundle(),
           new JMS\SerializerBundle\JMSSerializerBundle($this),
           new Nelmio\CorsBundle\NelmioCorsBundle(),
@@ -81,7 +81,7 @@ sensio_framework_extra:
 Generate the REST controller
 
 ```bash
-$ php app/console voryx:generate:rest
+$ php app/console marks12:generate:rest
 ```
     
 This will guide you through the generator which will generate a RESTful controller for an entity.
@@ -104,7 +104,7 @@ $ php app/console doctrine:schema:update --force
 Generate the API controller:
 
 ```bash
-$ php app/console voryx:generate:rest --entity="AppBundle:Post"
+$ php app/console marks12:generate:rest --entity="AppBundle:Post"
 ```
 
 ### Using the API

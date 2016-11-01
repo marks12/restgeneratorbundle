@@ -1,6 +1,6 @@
 <?php
 
-namespace Voryx\RESTGeneratorBundle\Controller;
+namespace Marks12\RESTGeneratorBundle\Controller;
 
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 use Symfony\Component\Form\Form;
