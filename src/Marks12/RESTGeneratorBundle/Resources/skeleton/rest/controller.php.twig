@@ -23,7 +23,7 @@ use Symfony\Component\Form\Form;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
 
-use Marks12\RESTGeneratorBundle\Controller\VoryxController;
+use Marks12\RESTGeneratorBundle\Controller\Marks12Controller;
 {% endblock use_statements %}
 
 /**
@@ -38,7 +38,7 @@ use Marks12\RESTGeneratorBundle\Controller\VoryxController;
 {% endblock phpdoc_class_annotations %}
  */
 {% block class_definition %}
-class {{ entity_class }}RESTController extends VoryxController
+class {{ entity_class }}RESTController extends Marks12Controller
 {% endblock class_definition %}
 {
 {% block class_body %}

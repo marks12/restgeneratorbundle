@@ -7,7 +7,7 @@ use Symfony\Component\Form\Form;
 use Symfony\Component\Form\FormInterface;
 use Symfony\Component\HttpFoundation\Request;
 
-class VoryxController extends Controller
+class Marks12Controller extends Controller
 {
 
     /**

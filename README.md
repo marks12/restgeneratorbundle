@@ -1,7 +1,7 @@
 # Attention
 
 IT IS JUST TEST.
-DON`T USE THIS BUNDLE. IT IS BAD AND NOT WORKING. Please use voryx/restgeneratorbundle
+DON`T USE THIS BUNDLE. IT IS BAD AND NOT WORKING. Please use marks12/restgeneratorbundle
 
 ## About
 
@@ -27,7 +27,7 @@ public function registerBundles()
 {
     $bundles = array(
         //...
-          new Marks12\RESTGeneratorBundle\VoryxRESTGeneratorBundle(),
+          new Marks12\RESTGeneratorBundle\Marks12RESTGeneratorBundle(),
           new FOS\RestBundle\FOSRestBundle(),
           new JMS\SerializerBundle\JMSSerializerBundle($this),
           new Nelmio\CorsBundle\NelmioCorsBundle(),
@@ -146,13 +146,13 @@ $ curl -X DELETE  http://localhost/app_dev.php/api/posts/1
 
 ## Related Entities
 
-If you want the form to be able to convert related entities into the correct entity id on POST, PUT or PATCH, use the voryx_entity form type
+If you want the form to be able to convert related entities into the correct entity id on POST, PUT or PATCH, use the marks12_entity form type
 
 ```php
 #Form/PostType()
 
     ->add(
-        'user', 'voryx_entity', array(
+        'user', 'marks12_entity', array(
             'class' => 'Acme\Bundle\Entity\User'
         )
     )

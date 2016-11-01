@@ -10,10 +10,10 @@ use Symfony\Component\OptionsResolver\OptionsResolverInterface;
 use Marks12\RESTGeneratorBundle\Form\DataTransformer\ArrayToIdTransformer;
 
 /**
- * Class VoryxEntityType
+ * Class Marks12EntityType
  * @package Marks12\RESTGeneratorBundle\Form\Type
  */
-class VoryxEntityType extends EntityType
+class Marks12EntityType extends EntityType
 {
 
     /**
@@ -66,6 +66,6 @@ class VoryxEntityType extends EntityType
      */
     public function getName()
     {
-        return 'voryx_entity';
+        return 'marks12_entity';
     }
 }
