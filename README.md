@@ -1,5 +1,7 @@
-# Marks12 REST Generator Bundle
-[![SensioLabsInsight](https://insight.sensiolabs.com/projects/ac1842d9-4e36-45cc-8db1-b97e2e62540e/big.png)](https://insight.sensiolabs.com/projects/ac1842d9-4e36-45cc-8db1-b97e2e62540e)
+# Attention
+
+IT IS JUST TEST.
+DON`T USE THIS BUNDLE. IT IS BAD AND NOT WORKING. Please use voryx/restgeneratorbundle
 
 ## About
 
@@ -18,7 +20,7 @@ Require the "marks12/restgeneratorbundle" package in your composer.json and upda
 $ php composer.phar require marks12/restgeneratorbundle dev-master
 ```
 
-Add the VoryxRestGeneratorBundle to your application's kernel along with other dependencies:
+Add the Marks12RestGeneratorBundle to your application's kernel along with other dependencies:
 
 ```php
 public function registerBundles()
