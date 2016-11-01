@@ -12,10 +12,10 @@ A CRUD like REST Generator
 
 
 ## Installation
-Require the "voryx/restgeneratorbundle" package in your composer.json and update your dependencies.
+Require the "marks12/restgeneratorbundle" package in your composer.json and update your dependencies.
 
 ```bash
-$ php composer.phar require voryx/restgeneratorbundle dev-master
+$ php composer.phar require marks12/restgeneratorbundle dev-master
 ```
 
 Add the VoryxRestGeneratorBundle to your application's kernel along with other dependencies:
