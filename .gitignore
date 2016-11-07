@@ -3,3 +3,10 @@ composer.lock
 /nbproject/private/
 nbproject/
 /.idea
+app
+bin
+tests
+var
+web
+src/AppBundle
+phpunit.xml.dist
